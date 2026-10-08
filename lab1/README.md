@@ -281,24 +281,9 @@ ROS launch files use XML format to start multiple nodes, set parameters, and aut
 
 ## 6. Step-by-Step Running & Testing Guide
 
-### Prerequisites
-Ensure the python script is executable:
-```bash
-chmod +x "/media/mohamedkamal/Data/cmp 4th/robotics/assigment1/catkin_ws/src/turtle_req/scripts/move_turtle.py"
-```
-
-### 1. Build the Catkin Workspace
-```bash
-source /home/mohamedkamal/miniconda3/envs/ros_env/setup.bash
-cd "/media/mohamedkamal/Data/cmp 4th/robotics/assigment1/catkin_ws"
-catkin_make
-```
-
-### 2. Source Devel Overlay & Run Launch File
-```bash
-source devel/setup.bash
-roslaunch turtle_req move.launch
-```
+run roscore in terminal 
+run rosrun turtlesim turtlesim_node in another 
+run python lab1/Requirement_1_Submission/turtle_req/scripts/move_turtle.py in another
 
 ### Expected Behavior
 1. The **turtlesim** canvas opens automatically.
