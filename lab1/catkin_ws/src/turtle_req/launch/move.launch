@@ -1,7 +1,0 @@
-<launch>
-    <!-- Launch Turtlesim Node -->
-    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" output="screen"/>
-
-    <!-- Launch Custom Turtle Movement Node -->
-    <node pkg="turtle_req" type="move_turtle.py" name="move_turtle" output="screen"/>
-</launch>

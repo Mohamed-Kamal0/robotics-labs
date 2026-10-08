@@ -1,1 +1,0 @@
-set(ORDERED_PATHS "/home/mohamedkamal/miniconda3/envs/ros_env/lib")

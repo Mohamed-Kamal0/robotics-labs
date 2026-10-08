@@ -1,8 +1,0 @@
-prefix=/media/mohamedkamal/Data/cmp 4th/robotics/assigment1/catkin_ws/devel
-
-Name: turtle_req
-Description: Description of turtle_req
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
